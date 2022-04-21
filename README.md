@@ -1,5 +1,32 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+## Acciones:
+## Librerias usadas
+`material-ui core`
+`axios`
+`firebase`
+`styled-components`
+`react-router-dom`
+
+## App.js - layout inicial
+- Crear las rutas
+- Renderizar el login o el resto de la app condicionando a la existencia del usuario (simple)  
+
+## Estilos
+- Utilizamos useStyles para crear una infraestructura que nos permita asignar estilos a cada uno de los componentes
+
+## Crear la carpeta de componentes: components, pages
+
+- Se crea la infraestructura básica de los componentes de cada página, Home, Login y Profile
+
+## Creación de estilos en los componentes de Pages
+
+- Patrón para añadir estilos a todos los componentes
+
+## Crear la carpeta de components
+
+- Se crea la infraestructura básica de los componentes de cada página, Home, Login y Profile
+
 ## Available Scripts
 
 In the project directory, you can run:
