@@ -26,8 +26,8 @@ function App() {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    //backgroundColor: "#111",
     minHeight: "100vh",
+    //backgroundColor: "#111"
   },
 }));
 

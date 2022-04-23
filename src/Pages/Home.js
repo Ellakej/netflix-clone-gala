@@ -1,10 +1,86 @@
 import { makeStyles } from '@material-ui/core';
 import React from 'react'
+import Header from '../components/Header';
+import Banner from '../components/Banner';
 
 const Home = () => {
     const classes = useStyles();          // Para usar estilos en los componentes
   return (
-    <div>Home</div>
+    <div>
+      <Header/>
+      <Banner/>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+      <h1>Prueba</h1>
+    </div>
+    
   )
 }
 

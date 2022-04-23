@@ -25,7 +25,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Crear la carpeta de components
 
-- Se crea la infraestructura básica de los componentes de cada página, Home, Login y Profile
+- Se crea la infraestructura básica de los componentes de cada página, Banner, Header y Rows
 
 ## Available Scripts
 
