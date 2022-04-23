@@ -1,7 +1,8 @@
 import { AppBar, Avatar, IconButton, makeStyles, Toolbar } from '@material-ui/core';
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
-import Logo from "../images/netflix-logo.png"
+import Logo from "../images/netflix-logo.png";
+import avatar from "../images/avatar.jpeg";
 
 const Header = () => {
     const classes = useStyles();          // Para usar estilos en los componentes
@@ -30,7 +31,7 @@ const Header = () => {
         <IconButton onClick={()=>navigate("/")}>
           <img src={Logo} alt="Logo" className={classes.Logo}></img>
         </IconButton>
-        <Avatar variant="square" style={{cursor: "pointer"}} onClick={()=>navigate("profile")} />
+        <Avatar variant="square" style={{cursor: "pointer"}} onClick={()=>navigate("profile")} src={avatar} />
       </Toolbar>
     </AppBar>
   )
