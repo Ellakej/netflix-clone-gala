@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Librerias usadas
 `material-ui core`
 `axios`
-`firebase`
+`firebase` -- no le veo caso...
 `styled-components`
 `react-router-dom`
 
@@ -26,6 +26,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Crear la carpeta de components
 
 - Se crea la infraestructura básica de los componentes de cada página, Banner, Header y Rows
+
+## Trabajar en el header
+
 
 ## Available Scripts
 

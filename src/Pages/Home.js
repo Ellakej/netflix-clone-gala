@@ -1,16 +1,16 @@
 import { makeStyles } from '@material-ui/core';
 import React from 'react'
 import Header from '../components/Header';
-import Banner from '../components/Banner';
+//import Banner from '../components/Banner';
+import Carrousel from '../components/Carrousel';
 
 const Home = () => {
     const classes = useStyles();          // Para usar estilos en los componentes
   return (
     <div>
       <Header/>
-      <Banner/>
+      <Carrousel/>
     </div>
-    
   )
 }
 
