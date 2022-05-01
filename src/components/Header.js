@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
   },
     Logo:{
       width: "100px",
-      cursos: "pointer"
+      cursor: "pointer"
     }
   }));
 

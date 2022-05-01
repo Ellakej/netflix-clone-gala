@@ -1,25 +1,24 @@
 import { makeStyles } from '@material-ui/core';
 import React from 'react'
 import Header from '../components/Header';
-//import Banner from '../components/Banner';
+import Banner from '../components/Banner';
 import Carrousel from '../components/Carrousel';
+import '../styles/responsive.css'
 
 const Home = () => {
-    const classes = useStyles();          // Para usar estilos en los componentes
   return (
-    <div>
+    <div id="root">
       <Header/>
-      <Carrousel/>
+      <div id="banner">
+        <Banner/>
+      </div>
+      <div id="carrusel">
+        <Carrousel/>
+      </div>
+      
     </div>
   )
 }
 
-// Objeto de estilos
-const useStyles = makeStyles((theme) => ({
-    root: {
-      //backgroundColor: "#111",
-      minHeight: "100vh",
-    },
-  }));
 
 export default Home

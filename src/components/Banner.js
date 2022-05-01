@@ -1,26 +1,28 @@
 import { Button, makeStyles, Typography } from '@material-ui/core';
 import React from 'react'
-import banner from '../images/banner_2.jpeg';
+import { useNavigate } from 'react-router-dom';
+import banner from '../images/banner_negro.png';
+import logo from '../images/logo_rey_leon_blanco.png';
+import '../styles/responsive.css';
 
 const Banner = () => {
     const classes = useStyles();          // Para usar estilos en los componentes
+    const navigate = useNavigate();
     const truncate = (string, n) => string?.length > n ? `${string.substr(0, n-1)}...` : string
   return (
     <div className={classes.root}>
       <div className={classes.content}>
-        <Typography className={classes.Titulo} variant="h2" component="h1">
-          El Rey León
-        </Typography>
+        <img src={logo} alt="Logo" className={classes.Logo}/>
         <div className={classes.buttons}>
-          <Button>Reproducir</Button>
-          <Button>Mi lista </Button>
+          <Button onClick={()=>navigate("/movie")}>Reproducir</Button>
         </div>
-        <Typography style={{wordWrap: "break-word"}} className={classes.description} variant="h6">
+        <Typography style={{wordWrap: "break-word"}} className={classes.description} variant="h6" id="description">
           {
             truncate("¡Vive desde la comodidad de tu casa la presentación de el Rey León de baby ballet 2022!", 100)
           }
         </Typography>
         <div className={classes.fadeBottom}/>
+        
       </div> 
     </div>
   )
@@ -30,11 +32,17 @@ const useStyles = makeStyles((theme) => ({
   content: {
     padding: "50px"
   },
+  Logo:{
+    width: "300px",
+    cursos: "pointer",
+    marginBottom: theme.spacing(4)
+  },
   Titulo: {
     marginBottom: "20px"
   },
   description: {
-    marginTop: "20px"
+    marginTop: "20px",
+    //marginRight: theme.spacing(90)
   },
   buttons: {
     "& button":{
@@ -44,11 +52,11 @@ const useStyles = makeStyles((theme) => ({
       borderRadius: "5px",
       padding: theme.spacing(1, 4, 1, 4),
       marginRight: "1rem",
-      backgroundColor: "rgba(51, 51, 51, 0.5)",
+      backgroundColor: "red",
     },
     "& button:hover":{
       color: "#000",
-      backgroundColor: "e6e6e6"
+      backgroundColor: "#cb3234"
     }
   },
     root: {
@@ -69,6 +77,15 @@ const useStyles = makeStyles((theme) => ({
       zIndex: 99,
       backgroundImage: "linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.67), #111)",
     },
+    fadeLeft: {
+      position: "absolute",
+      top: 0,
+      bottom: 0,
+      left: 0,
+      right: "30vh",
+      zIndex: 99,
+      backgroundImage: "linear-gradient(-90deg, transparent, rgba(37, 37, 37, 0.67), #111)",
+    }
   }));
 
 export default Banner

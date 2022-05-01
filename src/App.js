@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Profile from "./Pages/Profile";
+import Movie from "./Pages/Movie";
 
 function App() {
   const user = "Ricardo";                    // Variable del usuario
@@ -16,6 +17,7 @@ function App() {
            <Routes>
              <Route path='profile' element={<Profile/>} />
              <Route path="/" element={<Home/>} />
+             <Route path="/movie" element={<Movie/>} />
            </Routes>
          )
        }

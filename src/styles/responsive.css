@@ -1,0 +1,55 @@
+/* Si la pantalla es menor a 600px */
+@media (max-width: 600px){
+    #carrusel {
+        visibility: visible;
+    }
+    #banner {
+        display: none;
+    }
+    #background{
+        display: none;
+    }
+    #barra_info{
+        display: block;
+        background-color: '#0A0A0A';
+        padding-bottom: 20px;
+    }
+    .barra_obj{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    #description{
+        padding-right: 5%;
+    }
+    #imagen_mobile{
+        align-items: center;
+    }
+}
+/* Si la pantalla es mayor a 600px */
+@media (min-width: 600px){
+    #background{
+        width: 95%;
+        color: "#fff";
+    }
+    #imagen_mobile{
+        display: none;
+    }
+    #barra_info{
+        display: inline-flex;
+        padding-bottom: 20px;
+    }
+    #description{
+        padding-right: 50%;
+    }
+}
+
+/* Configuraciones generales */
+
+
+#coincidencia {
+    color: green;
+}
+.barra_obj{
+    padding-right: 20px;
+}
