@@ -15,6 +15,13 @@ const Home = () => {
       <div id="carrusel">
         <Carrousel/>
       </div>
+
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       
     </div>
   )

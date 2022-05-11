@@ -19,8 +19,9 @@ const Sinopsis = () => {
                     </div>
                 </div>
                 <div className={classes.container}>
+                  
                     <div align="CENTER" id="imagen_mobile">
-                        <img src={poster} alt="Poster" className={classes.poster}/>
+                        <img src={banner} alt="Poster" className={classes.poster}/>
                     </div>
 
                     <div id="barra_info">
@@ -46,7 +47,7 @@ const Sinopsis = () => {
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        padding: "40px",
+        padding: "15px",
     },
       background: {
         objectFit: "contain",
