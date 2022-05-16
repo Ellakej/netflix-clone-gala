@@ -1,4 +1,4 @@
-import { makeStyles, Typography } from '@material-ui/core';
+import { Icon, IconButton, makeStyles, Typography } from '@material-ui/core';
 import React from 'react'
 import logo from '../images/logo_rey_leon_blanco.png'
 import banner from '../images/banner_previo.png';
@@ -20,24 +20,91 @@ const Sinopsis = () => {
                 </div>
                 <div className={classes.container}>
                   
-                    <div align="CENTER" id="imagen_mobile">
-                        <img src={banner} alt="Poster" className={classes.poster}/>
+                    <div align="CENTER" >
+                        <img src={banner} alt="Poster" id="imagen_mobile" className={classes.poster}/>
+                    </div>
+
+                    <div id="titulo">
+                      <h1>El Rey León: La Gala</h1>
                     </div>
 
                     <div id="barra_info">
-                        <h4 id="coincidencia" class="barra_obj">100% de coincidencia</h4>
-                        <h4 class="barra_obj">2022</h4>
-                        <h4 class="barra_obj">Capítulos: 2</h4>
-                        <h4 class="barra_obj">1 Temporada</h4>
+                        <h6 id="coincidencia" class="barra_obj">100% de coincidencia</h6>
+                        <h6 class="barra_obj">2022</h6>
+                        <h6 class="barra_obj">Capítulos: 2</h6>
+                        <h6 class="barra_obj">1 Temporada</h6>
                     </div>
-                    <Typography style={{wordWrap: "break-word"}} id="description" variant="h6">
+                    <Typography style={{wordWrap: "break-word"}} id="description" >
                     {
                         truncate("¡Vive desde la comodidad de tu casa la presentación de el Rey León de baby ballet 2022!", 100)
                     }
                     </Typography>
                     <br></br>
+                    <Typography style={{wordWrap: "break-word"}} id="description">
+                      Cast: Alumn@s de Baby Ballet Tepeyac <br></br>
+                      Creator: Baby Ballet Tepeyac
+                    </Typography>
+                    <br></br>
                     <br></br>
                     <hr width="100%" color="black"></hr>
+                    <hr width="50%" color="red"></hr>
+
+                    <br></br>
+
+                    <div id="barra_caps" >
+                      <h5>Episodios</h5>
+                      <h5>Trailers</h5>
+                    </div>
+
+                    <div id="caps_mobile">
+                      <div id="barra_episodios">
+                        <div class="episodio">
+                          <div class="pre_miniatura">
+                            <IconButton>
+                              <img src={banner} alt="Miniatura" class="miniatura"/>
+                            </IconButton>
+                          </div>
+                          <div class="text_episodio">
+                            <h5>1. Previo</h5>
+                          </div>
+                        </div>
+                        <div class="episodio">
+                          <div class="pre_miniatura">
+                            <IconButton>
+                              <img src={banner} alt="Miniatura" class="miniatura"/>
+                            </IconButton>
+                          </div>
+                          <div class="text_episodio">
+                            <h5>2. Presentación</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="caps_desktop">
+                      <div id="barra_episodios">
+                        <div class="episodio">
+                          <div class="pre_miniatura">
+                            <IconButton >
+                              <img src={banner} alt="Miniatura" class="miniatura"/>
+                            </IconButton>
+                          </div>
+                          <div class="text_episodio">
+                            <h5>1. Previo</h5>
+                          </div>
+                        </div>
+                        <div class="episodio">
+                          <div class="pre_miniatura">
+                            <IconButton>
+                              <img src={banner} alt="Miniatura" class="miniatura"/>
+                            </IconButton>
+                          </div>
+                          <div class="text_episodio">
+                            <h5>2. Presentación</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
                 </div>
         </div>

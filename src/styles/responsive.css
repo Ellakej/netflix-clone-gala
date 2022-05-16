@@ -1,5 +1,8 @@
 /* Si la pantalla es menor a 600px */
 @media (max-width: 600px){
+    #barra_header{
+        display: none;
+    }
     #carrusel {
         visibility: visible;
     }
@@ -10,20 +13,41 @@
         display: none;
     }
     #barra_info{
-        display: block;
+        display: flex;
         background-color: '#0A0A0A';
         padding-bottom: 20px;
+    }
+    .aparece{
+        display: none;
     }
     .barra_obj{
         padding-top: 10px;
         padding-bottom: 10px;
-        text-align: center;
     }
     #description{
         padding-right: 5%;
     }
     #imagen_mobile{
-        
+        width: 95%;
+    }
+    #barra_episodios{
+        margin-top: 20px;
+    }
+    .episodio{
+        display: flex;
+        margin-top: 20px;
+    }
+    .pre_miniatura{
+        width: 50%;
+    }
+    .miniatura{
+        width: 100%;
+    }
+    .text_episodio{
+        padding: 20px;
+    }
+    #caps_desktop{
+        display: none;
     }
 }
 /* Si la pantalla es mayor a 600px */
@@ -42,14 +66,45 @@
     #description{
         padding-right: 50%;
     }
+    #barra_episodios{
+        display: flex;
+        margin-top: 20px;
+    }
+    .episodio{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 30%;
+    }
+    .pre_miniatura{
+        width: 100%;
+    }
+    .miniatura{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .text_episodio{
+        text-align: center;
+        padding: 20px;
+    }
+    #caps_mobile{
+        display: none;
+    }
 }
 
 /* Configuraciones generales */
-
-
 #coincidencia {
     color: green;
 }
 .barra_obj{
     padding-right: 20px;
+}
+#barra_caps{
+    display: flex;
+    justify-content: space-around;
+}
+#titulo{
+    margin-top: 15px;
 }
