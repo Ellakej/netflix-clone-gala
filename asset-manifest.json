@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/netflix-clone-gala/static/css/main.281b9029.css",
+    "main.js": "/netflix-clone-gala/static/js/main.c9de8db5.js",
+    "static/media/banner_previo.png": "/netflix-clone-gala/static/media/banner_previo.7e5f59153977f232c6a8.png",
+    "static/media/banner_negro.png": "/netflix-clone-gala/static/media/banner_negro.eea6ec37a8a363d0bafc.png",
+    "static/media/heroBanner.jpeg": "/netflix-clone-gala/static/media/heroBanner.83dab6f7c66f56ba59a0.jpeg",
+    "static/media/rey_leon_poster_new.jpg": "/netflix-clone-gala/static/media/rey_leon_poster_new.b665e13f233a6a9cb919.jpg",
+    "static/media/logo_rey_leon_blanco.png": "/netflix-clone-gala/static/media/logo_rey_leon_blanco.bf2f6eddb75b561821ed.png",
+    "static/media/netflix-logo.png": "/netflix-clone-gala/static/media/netflix-logo.774e8c1632ac9433608b.png",
+    "index.html": "/netflix-clone-gala/index.html",
+    "main.281b9029.css.map": "/netflix-clone-gala/static/css/main.281b9029.css.map",
+    "main.c9de8db5.js.map": "/netflix-clone-gala/static/js/main.c9de8db5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.281b9029.css",
+    "static/js/main.c9de8db5.js"
+  ]
+}
