@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Ellakej.github.io/netflix-clone-gala",
+  "homepage": "http://Ellakej.github.io/netflix-clone-gala",
   "name": "netflix-clone-gala",
   "version": "0.1.0",
   "private": true,
@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://$NTEP_TOKEN@github.com/Ellakej/netflix-clone-gala"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
