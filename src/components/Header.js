@@ -31,7 +31,7 @@ const Header = () => {
         <IconButton onClick={()=>navigate("/")}>
           <img src={Logo} alt="Logo" className={classes.Logo}></img>
         </IconButton>
-        <Avatar variant="square" style={{cursor: "pointer"}} onClick={()=>navigate("profile")} src={avatar} />
+        <Avatar variant="square" style={{cursor: "pointer"}}  src={avatar} />
       </Toolbar>
     </AppBar>
   )

@@ -2,14 +2,15 @@ import { Icon, IconButton, makeStyles, Typography } from '@material-ui/core';
 import React from 'react'
 import logo from '../images/logo_rey_leon_blanco.png'
 import banner from '../images/banner_previo.png';
-import poster from '../images/poster_RL.png';
+import poster from '../images/rey_leon_poster_new.jpg';
 import "../styles/responsive.css";
+import { useNavigate } from 'react-router-dom';
 
 
 const Sinopsis = () => {
     const classes = useStyles();
     const truncate = (string, n) => string?.length > n ? `${string.substr(0, n-1)}...` : string
-
+    const navigate = useNavigate();
   return (
     <div>
         <div className={classes.root}>
@@ -60,22 +61,22 @@ const Sinopsis = () => {
                       <div id="barra_episodios">
                         <div class="episodio">
                           <div class="pre_miniatura">
-                            <IconButton>
-                              <img src={banner} alt="Miniatura" class="miniatura"/>
+                            <IconButton onClick={()=>navigate("/video")}>
+                              <img src={poster} alt="Miniatura" class="miniatura"/>
                             </IconButton>
                           </div>
                           <div class="text_episodio">
-                            <h5>1. Previo</h5>
+                            <h5>1. Gala</h5>
                           </div>
                         </div>
                         <div class="episodio">
                           <div class="pre_miniatura">
-                            <IconButton>
-                              <img src={banner} alt="Miniatura" class="miniatura"/>
+                            <IconButton onClick={()=>navigate("/extra")}>
+                              <img src={poster} alt="Miniatura" class="miniatura"/>
                             </IconButton>
                           </div>
                           <div class="text_episodio">
-                            <h5>2. Presentación</h5>
+                            <h5>2. Material Extra</h5>
                           </div>
                         </div>
                       </div>
@@ -85,22 +86,22 @@ const Sinopsis = () => {
                       <div id="barra_episodios">
                         <div class="episodio">
                           <div class="pre_miniatura">
-                            <IconButton >
-                              <img src={banner} alt="Miniatura" class="miniatura"/>
+                            <IconButton onClick={()=>navigate("/video")}>
+                              <img src={poster} alt="Miniatura" class="miniatura"/>
                             </IconButton>
                           </div>
                           <div class="text_episodio">
-                            <h5>1. Previo</h5>
+                            <h5>1. Gala</h5>
                           </div>
                         </div>
                         <div class="episodio">
                           <div class="pre_miniatura">
-                            <IconButton>
-                              <img src={banner} alt="Miniatura" class="miniatura"/>
+                            <IconButton onClick={()=>navigate("/extra")}>
+                              <img src={poster} alt="Miniatura" class="miniatura"/>
                             </IconButton>
                           </div>
                           <div class="text_episodio">
-                            <h5>2. Presentación</h5>
+                            <h5>2. Material Extra</h5>
                           </div>
                         </div>
                       </div>
