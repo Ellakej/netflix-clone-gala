@@ -1,6 +1,6 @@
 import { IconButton, makeStyles, Typography } from '@material-ui/core';
 import React from 'react'
-import posterMini from "../images/rey_leon_poster_new.jpg"
+import posterMini from "../images/poster_RL.png"
 import { useNavigate } from 'react-router-dom';
 
 
